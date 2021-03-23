@@ -9,26 +9,22 @@
 
 Num = 0
 Estudiantes = 0
-NumMen = 0
-NumMay =  0
-NumAnt = 0
+NumMen = 999
+NumMay =  -1
 Sumatoria = 0
 Promedio = 0
 print("Ingrese la calificacion para la cafeteria central entre 1 y 10, 1 es horrible y 10 es excelente.")
-Num = float(input(""))
-NumAnt = Num
+Num = int(input(""))
 while Num != 0:
-    if Num <= NumAnt:
+    if Num < NumMen:
         NumMen = Num
-        NumAnt = NumMen
     else:
-        if Num > NumAnt:
+        if Num > NumMay:
             NumMay = Num
-            NumAnt = NumMay
     Sumatoria += Num
     Estudiantes +=1
     print("Ingrese la calificacion para la cafeteria central entre 1 y 10, 1 es horrible y 10 es excelente.")
-    Num = float(input(""))
+    Num = int(input(""))
 Promedio = Sumatoria / Estudiantes
 print("Se encuestaron " + str(Estudiantes) + " Estudiantes")
 print("El promedio de la encuesta es:", Promedio)
