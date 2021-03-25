@@ -1,8 +1,9 @@
-print("Ingrese un numero entre 0 y 10 entero diferente de 0, para terminar el programa ingrese el 0")
-n = int(input())
-while n != 0:
-    for l in range(n , 20 , 1):
-        print(l)
-    print("Ingrese un numero entre 0 y 10 entero diferente de 0, para terminar el programa ingrese el 0")
-    n = int(input())
+print("#1")
+for a in range (3):
+    for b in range (2):
+        print ("i vale", a, "y  vale", b)
 
+print("#2")
+for c in range (4):
+    for d in range(c):
+        print ("c vale", c, "y d vale", d)
