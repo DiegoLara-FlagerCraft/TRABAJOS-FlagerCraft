@@ -15,4 +15,4 @@ if Promedio >= 7:
 elif Promedio >= 4 and Promedio < 7:
     print("REGULAR") 
 else:
-    print("REPROBADO")
+    print("REPROBADO") 
