@@ -8,4 +8,4 @@ Num = int(input("Ingrese un Numero: "))
 if Num % 5 == 0 and Num % 3 == 0:
     print("El numero es multiplo de 3 y de 5 al mismo tiempo")
 else:
-    print("El numero no es multiplo de 3 ni de 5 al mismo tiempo")
+    print("El numero no es multiplo de 3 ni de 5 al mismo tiempo") 
