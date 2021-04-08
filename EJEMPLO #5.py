@@ -1,12 +1,13 @@
 # 5.Al igual que la sentencia if, la estructura while también puede combinarse con una sentencia else.
-total = 0
-contar = 0
-grado = int(input("mensaje: "))
-while grado != -1:
+contar = 1
+contar2 = 0
+total = 0 
+notas = int(input("¿Cuántas notas deseas ingresar? = "))
+while contar <= notas:
+    grado = int(input("Ingrese la nota = "))
     total = total + grado
     contar += 1
-    grado = int(input("mensaje: "))
-else:
-    promedio = total / contar
-    print ("Promedio de notas del grado escolar: " + str(promedio))
+    contar2 +=1
+promedio = total / contar2
+print ("Promedio de notas del grado escolar: " + str(promedio))
 
