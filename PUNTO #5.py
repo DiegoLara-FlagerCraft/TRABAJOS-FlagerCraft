@@ -10,4 +10,4 @@ def imprimir_tabla(numero):
         contador = contador + 1
 
 # Probar función
-imprimir_tabla(15)
+imprimir_tabla(15) 
