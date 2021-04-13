@@ -1,0 +1,1 @@
+print(min(2, 3)) # Devuelve 2 ya que 2 es el más pequeño de los dos valores
