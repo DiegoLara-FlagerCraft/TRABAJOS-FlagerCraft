@@ -1,0 +1,1 @@
+print(divmod(13.5,2.5)) # Devuelve el 5.0 y el 1.0 porque el 5.0 es el cociente y el 1.0 es el resto de la division entre 13.5 y 2.5

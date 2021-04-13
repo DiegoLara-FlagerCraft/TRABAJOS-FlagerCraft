@@ -1,0 +1,1 @@
+print(divmod(5,2)) # muestra (2,1) porque al dividir 5 en 2 el cociente es 2 y el resto es 1 
