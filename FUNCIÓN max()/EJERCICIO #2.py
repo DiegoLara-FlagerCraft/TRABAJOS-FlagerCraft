@@ -1,0 +1,1 @@
+print(max(2, 3, 23)) # Devuelve 23 porque el 23 es el valor mas grande

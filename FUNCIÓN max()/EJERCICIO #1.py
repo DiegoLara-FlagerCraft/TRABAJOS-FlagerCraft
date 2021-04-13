@@ -1,0 +1,1 @@
+print(max(2, 3)) # Devuelve 3 porque el 3 es el valor mayor
